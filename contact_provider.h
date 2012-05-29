@@ -1,0 +1,45 @@
+
+#ifndef _CONTACT_PROVIDER_H_
+#define _CONTACT_PROVIDER_H_
+
+#define CONTACT_PROVIDER_ID   "contact"
+
+
+//define DESTINATION
+#define CONTACT_PROVIDER_DESTINATION_CONTACTS   0
+
+#define CONTACT_PROVIDER_DESTINATION_GROUP    1
+
+#define CONTACT_PROVIDER_DESTINATION_EXTENSION_NUMBER   2
+#define CONTACT_PROVIDER_DESTINATION_EXTENSION_OTHER    3
+#define CONTACT_PROVIDER_DESTINATION_TAG        4
+#define CONTACT_PROVIDER_DESTINATION_SIM        5
+#define CONTACT_PROVIDER_DESTINATION_VIEW_ALL   6
+
+
+
+#define CONTACT_EXTENSION_TAG_MOBILE        0
+#define CONTACT_EXTENSION_TAG_HOME          1
+#define CONTACT_EXTENSION_TAG_OFFICE        2
+#define CONTACT_EXTENSION_TAG_EMAIL         3
+
+
+
+
+//define col name
+
+//contact list colume name
+#define CONTACT_ME_CONTACTS_COL_ID "ID"
+#define CONTACT_ME_CONTACTS_COL_NAME "name"
+#define CONTACT_ME_CONTACTS_COL_NUMBER "number"
+#define CONTACT_ME_CONTACTS_COL_GROUP_ID "group_id"
+
+
+//group colume name
+#define CONTACT_ME_GROUP_COL_ID "ID"
+#define CONTACT_ME_GROUP_COL_NAME "name"
+#define CONTACT_ME_GROUP_COL_AUDIO "audio"
+
+//Cursor* contact_provider_search_in_temp_view(ContentProvider* thiz,const CHAR* str );
+
+#endif
